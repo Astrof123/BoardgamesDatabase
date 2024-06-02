@@ -1,6 +1,6 @@
 # Описание таблиц и связей:
 
-Первые 10 таблиц в [DB Designer](https://dbdesigner.page.link/dw9WBdyQQAioDsrDA).
+Первые 10 таблиц в [DB Designer](https://dbdesigner.page.link/dw9WBdyQQAioDsrDA)
 
 Оставшиеся таблицы в [DB Designer](https://dbdesigner.page.link/ktZKo6HHyi6EuhnbA)
 
