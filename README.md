@@ -4,25 +4,25 @@
 
 ## Таблица "boardgames"
 
-* id: Уникальный идентификатор игры (первичный ключ)
-* name: Название игры
-* price: Цена игры
-* min_player: Минимальное количество игроков
-* max_player: Максимальное количество игроков
-* full_description: Полное описание игры
-* mini_description: Краткое описание игры
-* rules: Правила игры
-* game_series_id: Идентификатор серии игр (внешний ключ, ссылается на таблицу `boardgame_series`)
-* release_date: Дата выпуска игры
-* available: Доступность игры (true/false)
-* updated_at: Дата последнего обновления записи
+* `id`: Уникальный идентификатор игры (первичный ключ)
+* `name`: Название игры
+* `price`: Цена игры
+* `min_player`: Минимальное количество игроков
+* `max_player`: Максимальное количество игроков
+* `full_description`: Полное описание игры
+* `mini_description`: Краткое описание игры
+* `rules`: Правила игры
+* `game_series_id`: Идентификатор серии игр (внешний ключ, ссылается на таблицу `boardgame_series`)
+* `release_date`: Дата выпуска игры
+* `available`: Доступность игры (true/false)
+* `updated_at`: Дата последнего обновления записи
 
 ### Связи:
-* Связана с таблицей boardgames_genres через внешний ключ game_series_id
-* Связана с таблицей cart_items через внешний ключ boardgame_id
-* Связана с таблицей history_purchase через внешний ключ boardgame_id
-* Связана с таблицей orders_items через внешний ключ boardgame_id
-* Связана с таблицей reviews через внешний ключ boardgame_id
+* Связана с таблицей `boardgames_genres` через внешний ключ `game_series_id`
+* Связана с таблицей `cart_items` через внешний ключ `boardgame_id`
+* Связана с таблицей `history_purchase` через внешний ключ `boardgame_id`
+* Связана с таблицей `orders_items` через внешний ключ `boardgame_id`
+* Связана с таблицей `reviews` через внешний ключ `boardgame_id`
 
 ## Таблица "genres"
 
