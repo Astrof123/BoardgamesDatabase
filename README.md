@@ -1,5 +1,8 @@
 # Описание таблиц и связей:
 
+Первые 10 таблиц в [DB Designer](https://dbdesigner.page.link/dw9WBdyQQAioDsrDA)
+Оставшиеся в [DB Designer](https://dbdesigner.page.link/ktZKo6HHyi6EuhnbA)
+
 ## Таблица "boardgames"
 Хранит информацию об играх, включая их название, цену, количество игроков, описание, правила, информацию о серии и доступности.
 
